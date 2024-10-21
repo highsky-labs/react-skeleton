@@ -1,0 +1,41 @@
+._header ._options {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 15px;
+  gap: 10px; /* Add this line to separate the elements with some space */
+}
+
+.language-switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language-switcher button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  margin: 0 5px;
+  text-decoration: underline;
+}
+
+.language-switcher button:hover {
+  text-decoration: none;
+}
+
+._header ._center {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 15px;
+}
+
+._logo {
+  width: 150px;
+  object-fit: cover;
+  cursor: pointer;
+}

@@ -3,13 +3,13 @@ import { BrowserRouter } from "react-router-dom";
 import { AppContext } from "./contexts/AppContext";
 import { Header, Footer } from "./components/index";
 import _Routes from "./_Routes";
-import "./App.css";
+import styles from "./app.module.css";
 
 function App() {
   return (
     <AppContext>
       <BrowserRouter>
-        <div className="App">
+        <div className={styles.app}>
           <Header />
 
           <_Routes />

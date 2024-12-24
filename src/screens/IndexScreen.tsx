@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.css';
+import '../app.module.css';
 
-const IndexScreen = () => {
+const IndexScreen: React.FC = () => {
   return <div>Index</div>;
 };
 

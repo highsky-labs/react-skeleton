@@ -1,5 +1,6 @@
-import React, { Route, Routes } from 'react-router-dom';
-import { IndexScreen, NotFoundScreen } from './screens/index';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import { IndexScreen, NotFoundScreen } from "./screens/index";
 
 const _Routes = () => {
   return (

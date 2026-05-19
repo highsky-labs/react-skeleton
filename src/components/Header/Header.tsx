@@ -1,7 +1,7 @@
-import { useContext } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
-import { PContext } from '../../contexts/AppContext';
-import './Header.css';
+import { useContext } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { PContext } from "../../contexts/AppContext";
+import "./Header.css";
 
 const Header = () => {
   const { application, setApplication } = useContext(PContext);
@@ -9,7 +9,7 @@ const Header = () => {
   const navigate = useNavigate();
   let hAttrs = {
     loginOptions: {
-      name: 'Login',
+      name: "Login",
     },
   };
   const { loginOptions } = hAttrs;
